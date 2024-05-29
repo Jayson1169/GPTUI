@@ -7,7 +7,15 @@ images = list(filter(lambda x: x.startswith('mobile'), images.keys()))
 base_url = 'https://raw.githubusercontent.com/Jayson1169/GPTUI/master/dataset/images/'
 input_dir = './input/'
 os.makedirs(input_dir, exist_ok=True)
-messages = json.load(open('message_history_mobile.json'))
+prompt = open('mobile.txt').read()
+messages = [{
+    'role': 'user',
+    'content': [
+        {'type': 'text', 'text': prompt},
+        {'type': 'image_url'}
+    ]
+}]
+
 batch_size = 40
 batches = len(images) // batch_size
 if len(images) % batch_size > 0:

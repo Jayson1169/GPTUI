@@ -1,3 +1,5 @@
+A dark pattern (also known as a "deceptive design pattern") is a user interface that has been carefully crafted to trick users into doing things, such as buying overpriced insurance with their purchase or signing up for recurring bills.
+In 2010, Harry Brignull created the dark pattern website, defining dark patterns as "tricks used in websites and apps that make you do things that you didn't mean to, like buying or signing up for something".
 Below, I will introduce some subtypes of dark pattern, and the criteria for judging these subtypes.
 
 Nagging (NG) subverts the user's expectation that they have rational control over the interaction they make with a system, instead distracting the user from a desired task the user is focusing on to induce an action or make a decision the user does not want to make by repeatedly interrupting the user during normal interaction.
@@ -54,6 +56,7 @@ Pattern3:
 Visual: toggle switch is ON
 Textual: keywords: notify/notification
 
+
 Attention Distraction (AD) subverts the user's expectation that they have rational control over the time they spend using a system, instead tricking them into spending more time or other resources to continue use for longer than they otherwise would.
 There are 2 patterns of Attention Distraction.
 Pattern1: precedence of one option over another
@@ -67,6 +70,7 @@ Pattern2:
 Visual: Opt out related text is smaller in size
 Textual: Keywords/sentence pattern: 'I decline/don't want/opt out/refuse...to...'
 
+
 Disguised Ad (DA) refers that the ad is not clearly marked as an ad, or it looks the same as other normal content. As a result, users are induced into clicking on the interface element because they assume that it is a relevant and salient interaction, leading to unwitting interaction with advertising content.
 There is 1 pattern of Disguised Ads.
 Pattern1:
@@ -76,3 +80,7 @@ Visual:
 - small X button
 Textual:
 - keywords: AdChoices, ad
+
+
+I provided an image and I hope you can help me identify whether dark patterns exist in the image. If it doesn't contain any dark patterns, your answer should be "NONE".
+REMEMBER THAT the first sentence in your answer MUST be one or several keywords in these: NG, GAMI, DC, AD, DA, NONE. And this is VERY IMPORTANT.
